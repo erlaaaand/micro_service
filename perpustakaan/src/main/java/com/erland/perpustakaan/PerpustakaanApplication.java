@@ -1,12 +1,13 @@
-package com.erland.product_service;
+package com.erland.perpustakaan;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-
 @SpringBootApplication
-public class ProductServiceApplication {
+public class PerpustakaanApplication {
+
 	public static void main(String[] args) {
-		SpringApplication.run(ProductServiceApplication.class, args);
+		SpringApplication.run(PerpustakaanApplication.class, args);
 	}
+
 }

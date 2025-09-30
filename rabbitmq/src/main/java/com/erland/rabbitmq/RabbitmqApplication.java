@@ -1,12 +1,13 @@
-package com.erland.product_service;
+package com.erland.rabbitmq;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-
 @SpringBootApplication
-public class ProductServiceApplication {
+public class RabbitmqApplication {
+
 	public static void main(String[] args) {
-		SpringApplication.run(ProductServiceApplication.class, args);
+		SpringApplication.run(RabbitmqApplication.class, args);
 	}
+
 }
