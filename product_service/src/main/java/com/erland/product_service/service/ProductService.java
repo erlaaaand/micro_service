@@ -18,10 +18,12 @@ public class ProductService {
         return productRepository.findAll();
     }
 
+    @SuppressWarnings("null")
     public Product getProductById(Long id) {
         return productRepository.findById(id).orElse(null);
     }
 
+    @SuppressWarnings("null")
     public Product createProduct(Product product) {
         return productRepository.save(product);
     }
@@ -31,6 +33,7 @@ public class ProductService {
         return productRepository.save(product);
     }
 
+    @SuppressWarnings("null")
     public void deleteProduct(Long id) {
         productRepository.deleteById(id);
     }
